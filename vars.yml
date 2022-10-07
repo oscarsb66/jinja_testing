@@ -1,0 +1,9 @@
+---
+blackbox_tcp: 'True'
+blackbox_tcp_targets:
+  teamA:
+    - www.google.com:443
+    - www.example.co.uk:443
+  teamB:
+    - www.hello.world:443
+    - www.linux.org:443
